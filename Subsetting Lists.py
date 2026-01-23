@@ -1,22 +1,14 @@
-areas = ["hallway", 11.25, "kitchen", 18.0, "living room", 20.0, "bedroom", 10.75, "bathroom", 9.50]
+name = input("enter you name:")
+age = input ("enter you age: ")
+print (f"Hello {name} , you are {age} years old")
+num1=int(input("enter num1:"))
+num2=int(input("enter num2:"))
+print (num1 + num2)
+print (num1 - num2)
+print (num1*num2)
+print (num1/num2)
+print (num1// num2)
+print (num1%num2)
 
-print(areas[1])
+# 5 + 3 * 2 ** 2 - 4 / 2 --> 5+3*4-4/2 --> 5+12-2 --> 15
 
-print(areas[-1])
-
-print(areas[5])
-
-downstairs = areas[:6]
-
-upstairs = areas[6:]
-
-print (downstairs)
-print (upstairs)
-#************************************
-house = [["hallway", 11.25],
-         ["kitchen", 18.0],
-         ["living room", 20.0],
-         ["bedroom", 10.75],
-         ["bathroom", 9.50]]
-
-print(house[4][1])
